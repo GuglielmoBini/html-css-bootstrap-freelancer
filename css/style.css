@@ -6,11 +6,13 @@ header {
   height: 100px;
 }
 
-#start-bootstrap {
+#start-bootstrap,
+#about {
   height: 500px;
 }
 
-#portfolio .col-12 {
+#portfolio .col-12,
+#about .col-12 {
   height: 100px;
 }
 
