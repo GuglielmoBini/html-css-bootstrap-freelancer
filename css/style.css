@@ -2,22 +2,34 @@
   border: red dashed 1px;
 }
 
-header {
+#top-header {
   height: 100px;
 }
 
-#start-bootstrap,
-#about {
+#start-bootstrap .col-10,
+#contact-me .col-8 {
   height: 500px;
 }
 
 #portfolio .col-12,
-#about .col-12 {
+#about .col-12,
+#contact-me .col-12,
+#footer-bottom .col-12 {
   height: 100px;
 }
 
-.col-md-12,
-.col-lg-6,
-.col-xl-4 {
+#portfolio .col-10,
+#portfolio .col-md-6,
+#portfolio .col-lg-4 {
   height: 300px;
+}
+
+#about .col-8,
+#about .col-md-4 {
+  height: 400px;
+}
+
+#footer-top .col-12,
+#footer-top .col-md-4 {
+  height: 200px;
 }
