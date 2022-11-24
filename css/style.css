@@ -1,1 +1,21 @@
+[class^="container"] * {
+  border: red dashed 1px;
+}
 
+header {
+  height: 100px;
+}
+
+#start-bootstrap {
+  height: 500px;
+}
+
+#portfolio .col-12 {
+  height: 100px;
+}
+
+.col-md-12,
+.col-lg-6,
+.col-xl-4 {
+  height: 300px;
+}
