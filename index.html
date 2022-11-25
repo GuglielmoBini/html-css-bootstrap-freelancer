@@ -65,7 +65,7 @@
       <!-- START BOOTSTRAP -->
       <section id="start-bootstrap">
         <div class="container">
-          <div class="row h-100 py-5 justify-content-center">
+          <div class="row py-5 justify-content-center">
             <div class="col-12 text-center text-white">
               <img src="img/avatar.svg" alt="Avatar" />
               <h1 class="h1 my-4">START BOOTSTRAP</h1>
@@ -109,57 +109,140 @@
         </div>
       </section>
       <!-- ABOUT -->
-      <section id="about" class="container">
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center align-items-center">
-            <h2>About</h2>
+      <section id="about">
+        <div class="container text-white">
+          <div class="row">
+            <div
+              class="col-12 d-flex flex-column justify-content-center align-items-center"
+            >
+              <h2 class="h1 mt-5 mb-4">ABOUT</h2>
+              <i class="fa-solid fa-star fa-2x mb-3"></i>
+            </div>
           </div>
-        </div>
-        <div class="row h-100 justify-content-center">
-          <div class="col-8 col-md-4">
-            <p>Text 1</p>
+          <div class="row justify-content-center">
+            <div class="col-9 col-md-6 mb-sm-3 mb-md-0">
+              <p class="fs-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptas qui sapiente quod ex eligendi voluptatem nesciunt
+                laudantium voluptatum! Necessitatibus deleniti neque doloremque
+                voluptatem, pariatur magni consequuntur eligendi soluta eos
+                delectus.
+              </p>
+            </div>
+            <div class="col-9 col-md-6">
+              <p class="fs-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
+                asperiores autem laborum provident inventore animi dolor nobis
+                non atque deleniti laudantium veniam praesentium delectus,
+                temporibus id. Numquam accusamus maxime deserunt.
+              </p>
+            </div>
           </div>
-          <div class="col-8 col-md-4">
-            <p>Text 2</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-12 d-flex justify-content-center align-items-center">
-            <p>download button</p>
+          <div class="row">
+            <div
+              class="col-12 d-flex justify-content-center align-items-center"
+            >
+              <button type="button" class="btn btn-outline-light btn-lg mb-5">
+                <i class="fa-solid fa-download"></i>
+                <span>Download</span>
+              </button>
+            </div>
           </div>
         </div>
       </section>
+      <!-- CONTACT ME -->
       <section id="contact-me" class="container">
         <div class="row">
-          <div class="col-12 d-flex justify-content-center align-items-center">
-            <h2>Contact Me</h2>
+          <div
+            class="col-12 d-flex flex-column justify-content-center align-items-center"
+          >
+            <h2 class="h1 mb-4">CONTACT ME</h2>
+            <i class="fa-solid fa-star fa-2x mb-3"></i>
           </div>
         </div>
         <div class="row justify-content-center">
-          <div class="col-8">
-            <p>Form</p>
+          <div class="col-10">
+            <form>
+              <div class="mb-2">
+                <input
+                  type="text"
+                  class="form-control ps-0"
+                  placeholder="Name"
+                  id="name"
+                  name="name"
+                  required
+                />
+              </div>
+              <div class="mb-2">
+                <input
+                  type="email"
+                  class="form-control ps-0"
+                  placeholder="Email"
+                  id="email"
+                  name="email"
+                  email
+                />
+              </div>
+              <div class="mb-2">
+                <input
+                  type="tel"
+                  class="form-control ps-0"
+                  placeholder="Phone number"
+                  id="Phone"
+                  name="phone"
+                />
+              </div>
+              <div class="mb-2">
+                <textarea
+                  class="form-control ps-0"
+                  placeholder="Message"
+                  id="message"
+                  name="message"
+                  rows="8"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn bg-cs-success">Send</button>
+            </form>
           </div>
         </div>
       </section>
     </main>
+    <!-- FOOTER -->
     <footer>
-      <section id="footer-top" class="container">
-        <div class="row">
-          <div class="col-12 col-md-4">
-            <h3>Location</h3>
-          </div>
-          <div class="col-12 col-md-4">
-            <h3>Around The Web</h3>
-          </div>
-          <div class="col-12 col-md-4">
-            <h3>About Freelancer</h3>
+      <section id="footer-top" class="mb-0">
+        <div class="container text-center text-white">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h5 class="mt-5 mb-3">LOCATION</h5>
+              <p class="fs-4 mb-5">2215 John Daniel Drive Clark, MO 54243</p>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="row flex-column">
+                <div class="col-12">
+                  <h5 class="mt-5 mb-4">AROUND THE WEB</h5>
+                </div>
+                <div class="col-12">
+                  <i class="fa-brands fa-facebook-f fa-2x mx-4 mx-md-2"></i>
+                  <i class="fa-brands fa-google-plus-g fa-2x mx-4 mx-md-2"></i>
+                  <i class="fa-brands fa-twitter fa-2x mx-4 mx-md-2"></i>
+                  <i class="fa-brands fa-linkedin-in fa-2x mx-4 mx-md-2"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <h5 class="mt-5 mb-3">ABOUT FREELANCER</h5>
+              <p class="fs-4 mb-5">
+                Freelance is a free to use, open source Bootstrap theme created
+                by <span class="text-black">Start Boolean</span>.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <section id="footer-bottom" class="container">
+      <section id="footer-bottom" class="container-fluid mb-0">
         <div class="row">
-          <div class="col-12">
-            <h3>Copyright</h3>
+          <div class="col-12 text-center text-white mt-5 mb-4">
+            <p>Copyright Your Website 2022</p>
           </div>
         </div>
       </section>
